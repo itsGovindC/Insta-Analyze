@@ -6,8 +6,6 @@ import googlemaps
 import glob
 import pandas
 
-something_imp = "D:\Desktop Items\hackathon"
-
 gmaps = googlemaps.Client(key='google-maps-key')
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="Directory of your google app credentials"
 # Imports the Google Cloud client library
